@@ -6,10 +6,115 @@
     <meta name='mobile-web-app-capable' content='yes'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src='js/bootstrap.min.js'></script>
-    <title></title>
+    <title>Blog de Música en Bootstrap</title>
   </head>
   <body>
-
+    <div class="contenedor center-block">
+      <div class="row encabezado">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+          <a href="#"><img src="img/logo.png" alt="Logotipo" class="logo"></a>
+        </div>
+        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 text-right">
+          <a href="#"><img src="img/facebook.svg" alt="Logo Facebook" class="f-soc"></a>
+          <a href="#"><img src="img/instagram.svg" alt="Logo Instagram" class="f-soc"></a>
+          <a href="#"><img src="img/youtube.svg" alt="Logo YouTube" class="f-soc"></a>
+          <a href="#"><img src="img/twitter.svg" alt="Logo Twitter" class="f-soci"></a>
+        </div>
+      </div>
+      <div class="row">
+          <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Inicio</a></li>
+              <li><a href="#">Grupos</a></li>
+              <li><a href="#">Artistas</a></li>
+              <li><a href="#">Top 10</a></li>
+              <li><a href="#">Letras</a></li>
+              <li><a href="#">Acordes</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="row contenido">
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 publicacion">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-justify">
+                  <h2 class="text-center">Violadores del Verso</h2>
+                  <p>Violadores del Verso, también conocido como Doble V, es uno de los grupos de música rap de habla hispana más conocidos, cuyos miembros son Kase.O, Lírico, SHO-HAI y R de Rumba (DJ), todos ellos nacidos en Zaragoza, Aragón.<br> Son considerados un referente en el rap español, y uno de los mejores grupos de rap de habla hispana de la historia. Sus discos Genios (1999) y Vivir para contarlo (2006) aparecen siempre en las listas de mejores discos de rap español.<br>Violadores del Verso ganó el disco de oro por Vivir para contarlo (2006), y junto con SFDK son los únicos grupos de rap español que hasta la fecha han conseguido ganar un disco de oro.</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                  <img src="img/p1.jpg" alt="Violadores del Verso" class="img-rounded publimg">
+                </div>
+              </div>
+              <div class="row comentarios">
+                <div class="col-lg-1 col-md-1 col-sm-3 col-xs-3">
+                  <img src="img/user.png" alt="Usuario" class="comimg">
+                </div>
+                <div class="col-lg-11 col-md-11 col-sm-9 col-xs-9">
+                  <div class="form-group text-center">
+                    <textarea name="comenta" rows="2" cols="20" class="form-control" placeholder="Comentarios"></textarea>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 publicacion">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                  <img src="img/p2.jpg" alt="Crew Peligrosos" class="img-rounded publimg">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-justify">
+                  <h2 class="text-center">Crew Peligrosos</h2>
+                  <p>Crew Peligrosos, la agrupación de Hip Hop con más proyección este año en Colombia, acaba de lanzar el video de Marcapasos sinfónico, un emocionante ensamble entre la música de la Orquesta Sinfónica Nacional y los cantos y bailes contraculturados de estos jóvenes de Medellín. Pero detrás de todo eso que vemos en escena, hay una propuesta conceptual, artística, académica y cultural de los Crew que los hace mucho más que una simple banda ascendente en los conteos de la radio. Nos recibieron en su propia casa, el barrio Aranjuez, en la comuna 4 de Medellín, para mostrarnos la Escuela 4 Elementos (4ESkuela), en donde son arte, parte y mentores.</p>
+                </div>
+              </div>
+              <div class="row comentarios text-center">
+                <div class="col-lg-1 col-md-1 col-sm-3 col-xs-3">
+                  <img src="img/user.png" alt="Usuario" class="comimg">
+                </div>
+                <div class="col-lg-11 col-md-11 col-sm-9 col-xs-9">
+                  <div class="form-group">
+                    <textarea name="comenta" rows="2" cols="20" class="form-control" placeholder="Comentarios"></textarea>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 busqueda">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 buscar">
+              <div class="row vinculos">
+                <div class="col-lg-12 col-md-12">
+                  <div class="input-group">
+                    <span class="input-group-btn">
+                      <button class="btn boton glyphicon glyphicon-search" type="button"></button>
+                    </span>
+                    <input type="text" class="form-control" placeholder="Buscar...">
+                  </div>
+                </div>
+              </div>
+              <div class="row vinculos">
+                <div class="col-lg-12 col-md-12">
+                  <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                    <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                    <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
+                    <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                    <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                    <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
