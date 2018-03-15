@@ -1,0 +1,139 @@
+body
+{
+  background-image: url(../img/bg.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.contenedor
+{
+  width: 80%;
+}
+
+.encabezado
+{
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.logo
+{
+  width: 50%;
+  margin: 10px 10px 10px 30px;
+}
+
+.f-soci
+{
+  width: 5%;
+  margin: 95px 50px 0 0;
+}
+
+.f-soc
+{
+  width: 5%;
+  margin: 95px 0 0 0;
+}
+
+.contenido
+{
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.publicacion
+{
+  background-color: white;
+  border: 1px solid red;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 10px;
+}
+
+.buscar
+{
+  background-color: white;
+  border: 1px solid red;
+  border-radius: 5px;
+  margin: 2px;
+  padding: 10px;
+}
+
+.boton
+{
+  background-color: black;
+  color: white;
+}
+
+.enlaces
+{
+  text-decoration: none;
+  color: black;
+}
+
+.vinculos
+{
+  margin: 5px;
+}
+
+.publimg
+{
+  width: 100%;
+}
+
+.comimg
+{
+  width: 100%;
+}
+
+@media (max-width:640px)
+{
+  .logo
+  {
+    margin: 8px 8px 8px 20px;
+  }
+
+  .f-soci
+  {
+    margin: 30px 30px 0 0;
+  }
+
+  .f-soc
+  {
+    margin: 30px 0 0 0;
+  }
+
+  .busqueda
+  {
+    display: none;
+  }
+
+  .publimg
+  {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width:641px) and (max-width:1024px)
+{
+  .logo
+  {
+    margin: 9px 9px 9px 25px;
+  }
+
+  .f-soci
+  {
+    margin: 50px 30px 0 0;
+  }
+
+  .f-soc
+  {
+    margin: 50px 0 0 0;
+  }
+}
